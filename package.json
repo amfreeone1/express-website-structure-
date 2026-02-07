@@ -1,11 +1,9 @@
 {
-  "name": "urban-cafe-api",
+  "name": "urban-cafe-backend",
   "version": "1.0.0",
-  "description": "Urban Cafe Backend for UE5",
-  "main": "server.js",
+  "main": "UrbanCafe_Core.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node UrbanCafe_Core.js"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -13,8 +11,7 @@
     "dotenv": "^16.0.0",
     "cors": "^2.8.5",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.0"
-  },
-  "author": "Hafiz",
-  "license": "ISC"
+    "jsonwebtoken": "^9.0.0",
+    "helmet": "^7.0.0"
+  }
 }
